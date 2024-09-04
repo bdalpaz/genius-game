@@ -11,7 +11,7 @@
 /* 3. Game
 /*   3.1 Pads
 /*   3.2 Center
-/*      3.2.1 GUI
+/*   3.2.1 GUI
 /* 4. Footer
 /**********************************/
 
@@ -301,4 +301,10 @@ footer {
   text-align: center;
   margin-top: 5rem;
   font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
 }
